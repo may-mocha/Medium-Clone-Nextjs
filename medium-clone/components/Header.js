@@ -2,7 +2,7 @@ import Image from "next/image"
 import Logo from '../static/logo.png'
 
 const styles = {
-  wrapper:'flex justify-center gap-10 p-5 bg-[#FCC017]',
+  wrapper:'flex justify-center gap-10 p-5 bg-gradient-to-r from-blue-500 via-pink-500 to-red-500',
   content:'flex justify-between items-center flex-1 gap-10 max-w-7xl',
   logoContainer: 'flex items-center flex-start',
   bannerNav: 'flex space-x-5 cursor-pointer items-center',
